@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "api-intwo-client-side-solution",
+    "id": "777de30a-a6f5-410a-a5d2-7283a5d1d550",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "APIIntwo description"
+      },
+      "longDescription": {
+        "default": "APIIntwo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "api-intwo Feature",
+        "description": "The feature that activates elements of the api-intwo solution.",
+        "id": "78cd8ed7-1899-4136-afdd-03da5ad4201c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/api-intwo.sppkg"
+  }
+}

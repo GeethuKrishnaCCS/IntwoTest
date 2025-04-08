@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "intwo-api-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/intwoApi/IntwoApiWebPart.js",
+          "manifest": "./src/webparts/intwoApi/IntwoApiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IntwoApiWebPartStrings": "lib/webparts/intwoApi/loc/{locale}.js"
+  }
+}
